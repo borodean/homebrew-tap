@@ -7,5 +7,6 @@ cask "ukrainian-typographic-keyboard" do
   name "Ukrainian Typographic Keyboard"
   homepage "https://github.com/denysdovhan/ukrainian-typographic-keyboard/"
 
-  artifact "ukrainian-typographic-keyboard.bundle", target: "#{ENV["HOME"]}/Library/Keyboard Layouts/ukrainian-typographic-keyboard.bundle"
+  artifact "ukrainian-typographic-keyboard.bundle",
+           target: "#{ENV["HOME"]}/Library/Keyboard Layouts/ukrainian-typographic-keyboard.bundle"
 end
