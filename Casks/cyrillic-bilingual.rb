@@ -6,6 +6,6 @@ cask "cyrillic-bilingual" do
   name "Cyrillic Bilingual"
   homepage "https://github.com/muromec/bandera-layout"
 
-  artifact "Cyrillic bilingual.bundle",
+  artifact "bandera-layout-master/Cyrillic bilingual.bundle",
            target: "#{ENV["HOME"]}/Library/Keyboard Layouts/Cyrillic bilingual.bundle"
 end
