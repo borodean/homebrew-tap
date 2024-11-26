@@ -121,7 +121,7 @@ class Curl < Formula
     # We manually inreplace as upstream fix requires re-generating configure.
     # TODO: Remove in the next release (inreplace will fail)
     # Ref: https://github.com/curl/curl/commit/e244d50064a56723c2ba4f0df8c847d6b70de0cb
-    inreplace lib/"pkgconfig/libcurl.pc", /^(Requires\.private: )ldap,(.*),mit-krb5-gssapi,/, "\\1\\2,"
+    inreplace lib/"pkgconfig/libcurl.pc", /^(Requires\.private: .*,)ldap,(.*,)mit-krb5-gssapi,/, "\\1\\2,"
   end
 
   test do
